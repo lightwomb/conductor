@@ -1,0 +1,189 @@
+
+html{
+overflow:auto;
+}
+canvas:-moz-focusring{outline:none};
+canvas:hover {outline:none;}
+canvas:focus {outline:none;}
+canvas:active {outline:none;}
+body{
+	background-color: none;
+	background-repeat: none;
+	}
+	
+#top{	
+	display: visible;
+	position: absolute;
+	background-color:rgb(245,255,255);
+	padding: none;
+	margin: none;
+	width:100%;
+	height:74px;
+	top: 0%;
+	left:0%;
+	z-index: 1;
+	}
+
+#conductinator{
+	position:relative;
+	top: 0px;
+	background:rgba(240,215,255,.3);
+	width:980px;
+	height: 500px;
+	padding: none;
+	margin: none;
+		border:3px solid rgba(50,50,50,.5);
+		border-radius: 10px;		
+}
+
+#views_top{
+	position:absolute;
+	left:0px;
+	top:0px;
+	}
+#views_bottom{
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	}
+
+button {position:relative; display:block;float:center; margin:0; font-size:10; border:0;}
+#log { clear:left;
+        position:absolute;
+        top:75%;}
+#boxes {
+    position:relative;
+    top:75px;
+    background-color: rgba(00,00,55,.4);
+    left:0px;
+    width:100%;
+    height:20%;
+    overflow-y:hidden;
+    overflow-x:auto;
+}
+
+#transport {
+line-height:0;
+white-space:nowrap;
+position: absolute;
+}
+#display {
+position: absolute;
+
+}
+#global {
+position: absolute;
+}
+
+#comp{	
+	position: absolute;
+	border-radius: 10px;
+	background:rgba(55,30,55,.3);
+	border:2px solid rgba(0,0,0,.2);
+	outline:none;
+	z-index: 5;
+	top:10%;
+	width: 65%;
+	height: 80%;
+	left:31%;
+}	
+#comp:hover {outline:none;}
+#comp:focus {outline:none;}
+#comp:active {outline:none;}	
+
+
+h2{
+	position: absolute;
+	font-family: 'Jura', sans-serif;
+	font-size: 45px;
+	left: 25px;
+	top: 5px;
+	}
+#oneliner{
+	position: absolute;
+	letter-spacing:2px;
+	font-family: 'Jura', sans-serif;
+	font-size: 11px;
+	color: rgb(150,150,150);
+	top:13px;
+	left:300px;
+	page-break-after: avoid;
+	}
+h4{
+	position: absolute;
+	letter-spacing:2px;
+	font-family: 'Jura', sans-serif;
+	font-size: 10px;
+	top:50px;
+	left: 25px;
+	}
+
+textarea.transport_values{
+	border-radius: 10px;
+	border:1px solid rgba(100,100,120,.1);
+	position: relative;
+	text-align:center;
+	margin: 0px;
+	outline: none;
+	background:rgba(130,155,155, .2);
+	height:50%;
+	width:32%;
+	font-family: 'Jura', sans-serif;
+	font-size: 200%;
+	padding-bottom:0%;
+	color: white;
+	overflow: hidden;
+	resize:none;
+	}
+textarea.transport_titles{
+	position: relative;
+	font-family: 'Jura', sans-serif;
+	height:50%;
+	width:32%;
+	text-align:center;
+	background:rgba(0,0,0,.0);
+	padding-top:4%;
+	padding-bottom:0%;
+	outline: none;
+	border:none;
+	font-size: 100%;
+	color: white;
+	overflow: hidden;
+	resize:none;
+	}
+
+textarea.transport_values_global{
+	border-radius: 10px;
+	border:1px solid rgba(0,0,0,.1);
+	position: relative;
+	text-align:center;
+	margin: 0px;
+	outline: none;
+	background:rgba(130,155,155, .2);
+	top:0%;
+	width:49%;
+	height:50%;
+	font-family: 'Jura', sans-serif;
+	font-size: 200%;
+	color: white;
+	overflow: hidden;
+	resize:none;
+	}	
+
+textarea.transport_titles_global{
+	position: relative;
+	font-family: 'Jura', sans-serif;
+	width:49%;
+	height:50%;
+	padding-top:4%;
+	text-align:center;
+  background:rgba(230,255,255, .0);
+	outline: none;
+	border:none;
+	font-size: 100%;
+	color: white;
+	overflow: hidden;
+	resize:none;
+	}
+
+	

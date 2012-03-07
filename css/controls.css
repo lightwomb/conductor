@@ -1,0 +1,28 @@
+.tooltip {
+	background-color:#fcf;
+}
+
+button {
+
+}
+
+#transport_controls {
+	position: absolute;
+	top: 0%;	
+	left: 0%;
+	z-index: 30;
+}
+
+#transport_current_state {
+	
+}
+
+.transport_cntrls_main {
+	
+}
+.transport_cntrls_loc {
+	
+}
+.transport_cntrls_tempo {
+	
+}
